@@ -13,7 +13,8 @@ Or clone this repository to run locally
 ```
 git clone https://github.com/scottyhq/votw.git
 cd votw
-conda env create -f votw.yml
+conda env create -f environment.yml
+conda activate votw
 jupyter notebook
 ```
 
