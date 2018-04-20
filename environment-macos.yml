@@ -1,8 +1,10 @@
-name: test
+#NOTE: non-linux libraries have been commented to work w/ binder, hopefully it works...
+name: votw
 channels:
   - defaults
 dependencies:
   - alabaster=0.7.10
+#  - appnope=0.1.0
   - asn1crypto=0.24.0
   - babel=2.5.3
   - backcall=0.1.0
@@ -19,13 +21,10 @@ dependencies:
   - docutils=0.14
   - entrypoints=0.2.3
   - expat=2.2.5
-  - fontconfig=2.12.6
   - freetype=2.8
   - geos=3.6.2
+  - gettext=0.19.8.1
   - glib=2.56.1
-  - gmp=6.1.2
-  - gst-plugins-base=1.14.0
-  - gstreamer=1.14.0
   - html5lib=1.0.1
   - icu=58.2
   - idna=2.6
@@ -43,16 +42,16 @@ dependencies:
   - jupyter_console=5.2.0
   - jupyter_core=4.4.0
   - kiwisolver=1.0.1
+#  - libcxx=4.0.1
+#  - libcxxabi=4.0.1
   - libedit=3.1
   - libffi=3.2.1
-  - libgcc-ng=7.2.0
-  - libgfortran-ng=7.2.0
+#  - libgfortran=3.0.1
+  - libiconv=1.15
   - libopenblas=0.2.20
   - libpng=1.6.34
   - libsodium=1.0.16
-  - libstdcxx-ng=7.2.0
   - libtiff=4.0.9
-  - libxcb=1.13
   - libxml2=2.9.8
   - libxslt=1.1.32
   - lxml=4.2.1
@@ -126,11 +125,19 @@ dependencies:
   - zeromq=4.2.5
   - zlib=1.2.11
   - pip:
+    - awscli==1.14.4
+    - botocore==1.8.8
     - click==6.7
     - click-plugins==1.0.3
     - cligj==0.4.0
+    - colorama==0.3.7
     - descartes==1.1.0
     - fiona==1.7.11.post1
     - geopandas==0.3.0
+    - jmespath==0.9.3
     - munch==2.3.1
-prefix: /home/ec2-user/miniconda3/envs/test
+    - pyasn1==0.4.2
+    - pyyaml==3.12
+    - rsa==3.4.2
+    - s3transfer==0.1.12
+prefix: /Users/scott/miniconda3/envs/votw

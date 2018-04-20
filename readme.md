@@ -9,6 +9,8 @@ This repository contains a modernized reproducible blog post (hopefully it conti
 Launch an interactive jupyter notebook by clicking on the binder button
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/scottyhq/votw/master)
 
+NOTE: this assumes you're running on Linux (some conda packages differ between Linux and Mac, for example libgfortran-ng on linux versus libgfortran=3.0.1 on mac)
+
 Or clone this repository to run locally
 ```
 git clone https://github.com/scottyhq/votw.git
