@@ -6,8 +6,8 @@ A while back (2014!) I made a [blog post](https://scottyhq.github.io/blog/2014/0
 
 This repository contains a modernized reproducible blog post (hopefully it continues to be in 4 more years!) 
 
-Launch an interactive jupyter notebook by clicking on the binder button
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/scottyhq/votw/master)
+*Launch an interactive jupyter notebook by clicking on the binder button!*
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/scottyhq/votw/v1.0?filepath=.%2Fvotw-take2.ipynb)
 
 NOTE: this assumes you're running on Linux (some conda packages differ between Linux and Mac, for example libgfortran-ng on linux versus libgfortran=3.0.1 on mac)
 
